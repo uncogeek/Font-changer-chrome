@@ -1,13 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Font Options</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-        }
-        .container {
             padding: 20px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        #domainList li {
+            margin: 5px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #domainList button {
+            background-color: #f44336;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -15,12 +32,14 @@
     <div class="container">
         <h1>Choose a Font</h1>
         <select id="fontSelect">
-            <option value="vazirmatn">Vazir matn</option>
+            <option value="vazirmatn">Vazir Matn</option>
             <option value="iransans">Iran Sans</option>
             <option value="iranyekan">Iran Yekan</option>
         </select>
-        <button id="saveButton">Save</button> <br><br>
-		Visit us <a href="https://uncogeek.com">UncoGeek</a>
+        <button id="saveButton">Save</button>
+
+        <h2>Saved Domains</h2>
+        <ul id="domainList"></ul>
     </div>
     <script src="options.js"></script>
 </body>
