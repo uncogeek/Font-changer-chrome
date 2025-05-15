@@ -23,7 +23,7 @@
   "options_page": "options.html",
   "web_accessible_resources": [
     {
-      "resources": ["styles.css", "fonts/vazirmatn.woff2", "fonts/iransans.woff2", "fonts/iranyekan.woff2"],
+      "resources": ["styles.css", "fonts/vazirmatn.woff2", "fonts/iransans.woff2", "fonts/iransans-light.woff2", "fonts/iransans-ultra-light.woff2", "fonts/iransans-thin.woff2", "fonts/iranyekan.woff2"],
       "matches": ["<all_urls>"]
     }
   ]
